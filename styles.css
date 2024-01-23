@@ -159,6 +159,11 @@ body {
     margin: 0px 10px 0px 10px;
   }
 
+  .rating button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+  }
+
   .btn-submit {
     height: 35px;
     width: 20rem;
