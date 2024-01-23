@@ -85,6 +85,11 @@ body {
   cursor: pointer;
 }
 
+.rating button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
 .btn-submit {
   background-color: hsl(25, 97%, 53%);
   color: white;
@@ -157,11 +162,6 @@ body {
     font-size: 15px;
     cursor: pointer;
     margin: 0px 10px 0px 10px;
-  }
-
-  .rating button:hover {
-    background-color: hsl(25, 97%, 53%);
-    color: white;
   }
 
   .btn-submit {
