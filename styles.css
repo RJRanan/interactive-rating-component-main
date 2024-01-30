@@ -33,8 +33,10 @@ body {
   padding: 50px 30px 30px 30px;
   line-height: 50px;
   transition: all 200ms ease-in-out;
+  /*
   position: absolute;
   z-index: 2;
+  */
 }
 
 .logo {
@@ -80,16 +82,25 @@ body {
 .rating button {
   border: none;
   background-color: hsl(213, 19%, 18%);
-  height: 48px;
-  width: 48px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   color: hsl(217, 12%, 63%);
   font-size: 20px;
   cursor: pointer;
+  transition: all 200ms ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rating button:hover {
   background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.rating .active {
+  background-color: hsl(216, 12%, 54%);
   color: white;
 }
 
@@ -129,7 +140,11 @@ body {
   align-items: center;
   padding: 0px 30px 30px 30px;
   transition: all 200ms ease-in-out;
-  z-index: 1;
+  /* z-index: 1; */
+}
+
+.hidden {
+  display: none;
 }
 
 .thankyou-card img {

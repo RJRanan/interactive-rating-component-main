@@ -43,21 +43,22 @@
     </div>
 
     <div class="rating">
-      <button type="button" id="rating-1" value="1">1</button>
-      <button type="button" id="rating-2" value="2">2</button>
-      <button type="button" id="rating-3" value="3">3</button>
-      <button type="button" id="rating-4" value="4">4</button>
-      <button type="button" id="rating-5" value="5">5</button>
+      <button class="btn active" type="button" id="rating-1" value="1">1</button>
+      <button class="btn" type="button" id="rating-2" value="2">2</button>
+      <button class="btn" type="button" id="rating-3" value="3">3</button>
+      <button class="btn" type="button" id="rating-4" value="4">4</button>
+      <button class="btn" type="button" id="rating-5" value="5">5</button>
     </div>
-    <button class='btn-submit'>SUBMIT</button>
+    <button class='btn-submit' id="submit">SUBMIT</button>
   </div>
 
 
 
 
-  <div class="thankyou-card">
+  <div class="thankyou-card hidden">
     <img src="./images/illustration-thank-you.svg" alt="" />
-    <div class="selected-rating">You selected &nbsp;<span id="selected-number" class="selected-number"></span>&nbsp; out
+    <div class="selected-rating">You selected &nbsp;<span id="selected-number" class="selected-number">1</span>&nbsp;
+      out
       of 5
     </div>
 
@@ -88,6 +89,8 @@
       href="#">RJRR</a>.
   </div>
 
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
